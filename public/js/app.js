@@ -793,6 +793,18 @@ window.Vue = __webpack_require__(34);
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
 
+$(document).ready(function () {
+  //  Dropdowns
+  $('.dropdown').hover(function (e) {
+    $(this).toggleClass('is-open');
+  });
+});
+
+var App = new Vue({
+  el: '#app',
+  data: {}
+});
+
 /***/ }),
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -39504,7 +39516,7 @@ module.exports = Vue$3;
 /* 36 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\n            background: $dropdown-item-hover-background-color;\r\n                       ^\r\n      Undefined variable: \"$dropdown-item-hover-background-color\".\r\n      in C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\buefy\\src\\scss\\components\\_autocomplete.scss (line 13, column 25)\n    at runLoaders (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.<anonymous> (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\async\\dist\\async.js:2244:31)\n    at Object.callback (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\async\\dist\\async.js:906:16)\n    at options.error (C:\\xampp70\\htdocs\\vueJS\\2.0\\DevMarketer\\DevMarketer\\node_modules\\node-sass\\lib\\index.js:294:32)");
 
 /***/ })
 /******/ ]);
